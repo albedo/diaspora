@@ -72,11 +72,11 @@ configuration: ## Section
     ## Use Amazon S3 instead of your local filesystem
     ## to handle uploaded pictures.
     s3: ## Section
-      #enable: true
-      #key: 'changeme'
-      #secret: 'changeme'
-      #bucket: 'my_photos'
-      #region: 'us-east-1'
+      enable: true
+      key: 'AKIAI73RNG7VINWNXXBQ'
+      secret: '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'
+      bucket: 'AlbedoTalk'
+      region: 'us-east-1'
     
     ## Related to S3 you can set a url to redirect all requests to uploaded
     ## images to another host. If you for example set
