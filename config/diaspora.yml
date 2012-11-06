@@ -237,9 +237,9 @@ configuration: ## Section
   services: ## Section
     ## OAuth credentials for Facebook:
     facebook: ## Section
-      #enable: true
-      #app_id: 'abcdef'
-      #secret: 'changeme'
+      enable: true
+      app_id: '165008480306898'
+      secret: 'ca0020ca4da6f0733569aa5da6360d43'
       ## this will be the namespace for your object,
       ## it should be configured in your FB app
       #open_graph_namespace: 
@@ -263,7 +263,7 @@ configuration: ## Section
     ## This doesn't make the user an admin but is used when a generic
     ## admin contact is neeeded, much like the postmaster role in mail
     ## systems. Set only the username, NOT the full ID.
-    #account: "podmaster"
+    account: "albedomaster"
     
     ## Resque is the background processing system used by Diaspora
     ## Resque web is an admin tool for it. This settings decides whether
